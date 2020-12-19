@@ -8,8 +8,9 @@ public class Repository : MonoBehaviour
     
 
     // Update is called once per frame
-   public void OpenUrl ()
+   public void OpenURL ()
     {
-        Application.OpenURL("https://lifeandtimes89.github.io/IMMBeta/");
+        Application.OpenURL("https://github.com/lifeandtimes89/IMMBeta");
+        Debug.Log("Hopefully its working");
     }
 }
