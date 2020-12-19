@@ -7,7 +7,7 @@ public class Repository : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.OpenURL("https://github.com/lifeandtimes89/CA-Project");
+        Application.OpenURL("https://lifeandtimes89.github.io/IMMBeta/.");
     }
 
     // Update is called once per frame
