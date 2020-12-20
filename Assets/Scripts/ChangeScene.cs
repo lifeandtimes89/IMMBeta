@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ChangeScene : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
  
-
-    // Update is called once per frame
+    //Changes to different scenes in the UI
+   
     public void ChangeToScene (int sceneToChangeTo)
     {
         Application.LoadLevel(sceneToChangeTo);

@@ -5,7 +5,7 @@ using UnityEngine;
 public class destroy : MonoBehaviour
   
 {
-    //public ParticleSystem explosionParticle;
+    //Destroys balls on colision and plays sound
     public AudioClip bumpsound;
     private AudioSource playerAudio;
 
@@ -17,7 +17,7 @@ public class destroy : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("BallCol"))
         {
-            //explosionParticle.Play();
+            
             Destroy(collision.gameObject);
             playerAudio.PlayOneShot(bumpsound, 1.0f);
         }

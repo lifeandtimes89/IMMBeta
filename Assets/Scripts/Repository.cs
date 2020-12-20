@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Repository : MonoBehaviour
 {
+
+    // Opens Github repository
     public string Url;
     
 
